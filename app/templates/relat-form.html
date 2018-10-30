@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+ <body>
+	<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="col-md-12">
+			<h3>
+				本体关系创建表单
+			</h3>
+			<form role="form" method="post">
+				<fieldset>
+					 <label>关系名</label>
+					 <input type="text" name="onto_name"/>
+
+					<div>
+                        <p1>对应本体库的选择</p1>
+                    <select name="corresponding">
+                                {% for onto in OntoSet %}
+                                <option>{{ onto.OLname }}</option>
+                                {% endfor %}
+                            </select>
+                    <div>
+						<span>
+                            <label padding="60">本体关系描述</label>
+							<input type="text" name="des_1" class="form-control" style="width:100px;display:inline"placeholder="请输入内容"/>
+							<label><--关系名--></label>
+							<input type="text" name="des_2" class="form-control" style="width:100px;display:inline"placeholder="请输入内容"/>
+						 </span>
+                     </div>
+					 </div>
+					 <input type="checkbox" /> 勾选同意
+					 <button type="submit" class="btn btn-primary btn-large" margin-top="80">提交</button>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+ </body>
+</html>

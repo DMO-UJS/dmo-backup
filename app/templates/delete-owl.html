@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Document</title>
+ </head>
+ <body>
+  <div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<h3>
+				本体库删除
+			</h3>
+			<div class="btn-group">
+            <form role="form" method="post">
+                  <select name="onto_name">
+                      {% for Onto in Ontolo_set %}#}
+                      <option >{{ Onto.OLname }}</option>
+                      {% endfor %}
+                  </select>
+				 <button class="btn btn-large btn-danger" type="submit" padding="60" >确认删除</button>
+            </form>
+			</div>
+		</div>
+	</div>
+</div>
+ </body>
+
+

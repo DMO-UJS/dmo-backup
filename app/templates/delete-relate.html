@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>本体关系删除</title>
+ </head>
+ <body>
+  <div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<h3>
+				本体关系删除
+			</h3>
+			<div class="btn-group">
+				 <p3>本体关系删除</p3>
+            <form role="form" method="post">
+                     <select  id="onto" name="onto_name">
+                          {% for Onto in Ontolo_set %}#}
+                          <option >{{ Onto.OLname }}</option>
+                          {% endfor %}
+                      </select>
+            <button class="btn btn-large btn-danger" type="submit">确认本体库选择</button>
+                     <select name="onto_rel">
+                              {% for Onto_rel in Rel_list  %}#}
+                              <option >{{ Onto_rel.ORname }}</option>
+                              {% endfor %}
+                     </select>
+             <button class="btn btn-large btn-danger" type="submit">确认删除</button>
+            </form>
+			</div>
+		</div>
+	</div>
+</div>
+ </body>
+</html>

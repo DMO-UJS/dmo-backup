@@ -1,0 +1,143 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "name": "妊娠期检测"
+        },
+        {
+          "children": [],
+          "name": "OGTT"
+        },
+        {
+          "children": [],
+          "name": "FPG"
+        },
+        {
+          "children": [],
+          "name": "血糖检查"
+        },
+        {
+          "children": [],
+          "name": "眼科检查"
+        },
+        {
+          "children": [],
+          "name": "宫高曲线"
+        },
+        {
+          "children": [],
+          "name": "子宫张力"
+        }
+      ],
+      "name": "检查"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "name": "口服降糖药物"
+        },
+        {
+          "children": [],
+          "name": "胰岛素"
+        },
+        {
+          "children": [],
+          "name": "禁忌药"
+        },
+        {
+          "children": [],
+          "name": "激光治疗"
+        },
+        {
+          "children": [],
+          "name": "拉贝格尔"
+        },
+        {
+          "children": [],
+          "name": "地塞米松"
+        }
+      ],
+      "name": "治疗"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "name": "心脏病"
+        },
+        {
+          "children": [],
+          "name": "先兆早产"
+        },
+        {
+          "children": [],
+          "name": "肥胖"
+        },
+        {
+          "children": [],
+          "name": "糖尿病"
+        },
+        {
+          "children": [],
+          "name": "空腹尿毒"
+        }
+      ],
+      "name": "疾病"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "name": "妊娠期"
+        },
+        {
+          "children": [],
+          "name": "孕期"
+        }
+      ],
+      "name": "疾病诊断分类"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "name": "恶心"
+        },
+        {
+          "children": [],
+          "name": "头痛"
+        },
+        {
+          "children": [],
+          "name": "呕吐"
+        },
+        {
+          "children": [],
+          "name": "乏力"
+        }
+      ],
+      "name": "症状"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "name": "中华医学会"
+        },
+        {
+          "children": [],
+          "name": "美国国立卫生研究所"
+        },
+        {
+          "children": [],
+          "name": "美国糖尿病协会"
+        }
+      ],
+      "name": "组织"
+    }
+  ],
+  "name": "Thing"
+}

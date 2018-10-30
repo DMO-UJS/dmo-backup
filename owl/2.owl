@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/2.owl"
+         xmlns="http://test.org/2.owl#">
+
+<owl:Ontology rdf:about="http://test.org/2.owl"/>
+
+<owl:Class rdf:about="#检查">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FPG">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#OGTT">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#妊娠期检测">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#子宫张力">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#宫高曲线">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#眼科检查">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#血糖检查">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#口服降糖药物">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:ObjectProperty rdf:about="#isConfirmOf">
+  <rdfs:domain rdf:resource="#检查"/>
+  <rdfs:range rdf:resource="#疾病"/>
+</owl:ObjectProperty>
+
+
+</rdf:RDF>
