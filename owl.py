@@ -35,9 +35,6 @@ def test():
 def hello_world():
     return 'Hello World !'
 
-@app.route('/aa')
-def hello_world():
-    return 'Hello World !'
 
 @app.route('/dmo')
 def home():
