@@ -39,3 +39,4 @@ class ConnectDB:
         return comment
 
 class A:
+    pass
