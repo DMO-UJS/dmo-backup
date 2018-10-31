@@ -88,8 +88,8 @@ class OntoFileUtils:
         lines = f.readlines()
         f.close()
         onto = AnalysisOwlUtils.readOwl(self.filename)
-        dictLists = AnalysisOwlUtils.getAllClassesInfo(onto)
-        dir = AnalysisOwlUtils.getClassInfo(dictLists,className)
+        # dictLists = AnalysisOwlUtils.getAllClassesInfo(onto)
+        dir = AnalysisOwlUtils.getClassInfo(onto,className)
         print(dir)
         if dir !=  None:
             oldStrBeg = "<owl:Class rdf:about='#"+className+"'>"
