@@ -13,13 +13,13 @@ class ConnectDB:
     def getConnect(self):
         # 连接数据库
         conn = pymysql.connect(host=host, user=user, passwd=passwd, db=db, port=port,charset=charset)
-        print('connect mysql success')
+        print('connect mysql success!')
         return conn
 
     #断开连接
     def closedConnect(self,conn):
         conn.close()  # 释放数据库资源
-        print('disconnect mysql')
+        print('disconnect mysql!')
 
     #数据库操作
     def queryDB(self,conn,sql):
@@ -30,10 +30,10 @@ class ConnectDB:
             cursor.execute(query)
             conn.commit()
             comment = list(cursor.fetchall())
-            print('operation success')
+            print('operation success!')
         except:
             conn.rollback()
-            print('operation error')
+            print('operation error!')
         finally:
             cursor.close()  # 关闭游标
         return comment
