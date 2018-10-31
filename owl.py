@@ -8,6 +8,8 @@ from app.forms.OntoRelAddform import OntoRelAddForm
 from app.forms.OntoRelDelform import OntoRelDelForm
 
 from app.models.OntologyLibray import Ontolo_sets, Ontolo_relats, db
+from app.utils.AnalysisOwlUtils import AnalysisOwlUtils
+
 from app.utils.OntoFileUtils import OntoFileUtils
 
 app=create_app()
@@ -16,14 +18,17 @@ app=create_app()
 @app.route('/test',methods=['GET','POST'])
 def test():
     if request.method == 'POST':
-        obj=request.form.to_dict()
-        print(obj)
-        a=[{'name': '治疗方案', 'content': '根据病程，由医生制定不同的治疗方案'}, {'name': '治疗方案一', 'content': '多喝热水'}, {'name': '治疗方案二', 'content': '多运动'}, {'name': '治疗方案三', 'content': '讲究卫生'}, {'name': '治疗方案四', 'content': '注意休息'}]
-        response = make_response(jsonify(a))
-        response.headers['Access-Control-Allow-Origin'] = '*'
-        response.headers['Access-Control-Allow-Methods'] = 'OPTIONS,HEAD,GET,POST'
-        response.headers['Access-Control-Allow-Headers'] = 'x-requested-with'
-        return 'ok'
+        obj=eval(request.data.decode(encoding = "utf-8"))  #eval()将str变为dict
+        # print(obj['text'])
+        comment = AnalysisOwlUtils.getClassComent('ontolo_classes', 'OCname', obj['text'])
+        if comment:
+            response = make_response(jsonify(comment))
+            response.headers['Access-Control-Allow-Origin'] = '*'
+            response.headers['Access-Control-Allow-Methods'] = 'OPTIONS,HEAD,GET,POST'
+            response.headers['Access-Control-Allow-Headers'] = 'x-requested-with'
+            return response
+        else:
+            return jsonify('没有找到相关回答')
 
 
 @app.route('/')

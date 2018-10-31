@@ -36,3 +36,16 @@ class Ontolo_relats(db.Model):
         for key,value in attrs_dict.items():
             if  hasattr(self,key) and  key !='id':
                 setattr(self,key,value)
+
+class Ontolo_classes(db.Model):
+    OCid = Column(Integer,primary_key=True,autoincrement=True)
+    OCname = Column(String(50),nullable=False)
+    OCcommend = Column(String(255))
+    OCtime = Column(DateTime(), default=datetime.now)
+    ontolo_sets = relationship('Ontolo_sets')
+    F_OLid = Column(Integer, ForeignKey('ontolo_sets.OLid'))
+
+    def set_attrs(self,attrs_dict):
+        for key,value in attrs_dict.items():
+            if  hasattr(self,key) and  key !='id':
+                setattr(self,key,value)
