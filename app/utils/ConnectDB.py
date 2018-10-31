@@ -38,3 +38,5 @@ class ConnectDB:
             cursor.close()  # 关闭游标
         return comment
 
+class A:
+    pass
