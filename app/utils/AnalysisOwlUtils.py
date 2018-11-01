@@ -1,9 +1,10 @@
-import datetime
 from owlready2 import *
 #本体文件解析类
 
 # from app.owl.CreatOwl.TreatmentOwl import *
 from app.utils.ConnectDB import ConnectDB
+from app.utils.FuzzyMatch import FuzzyMatch
+
 
 class AnalysisOwlUtils:
     """""
@@ -94,6 +95,24 @@ class AnalysisOwlUtils:
         #print(dictlist)
         return dictlist
 
+    """
+    根据关键字进行本体类模糊查询
+    输入：DB，列名，关键字
+    输出：列表 [可能的备选词]
+    """
+    @classmethod
+    def ontoFuzzyMatch(cls,DBName,colName,keyWord):
+        db = ConnectDB()
+        conn = db.getConnect()
+        sql = "select %s from %s " % (colName, DBName)
+        results = db.queryDB(conn,sql)
+        db.closedConnect(conn)
+        fuzzyList = []
+        for result in results:
+            fuzzyList.append(result[0])
+        #print('dictlist',dictlist)
+        return  FuzzyMatch.fuzzyFinder(keyWord, fuzzyList)
+
 
     """""
     数据库中插入对象的备注信息
@@ -118,7 +137,7 @@ class AnalysisOwlUtils:
 
 #测试
 if __name__ == '__main__':
-    filepath = '../OWL/Treatment.owl'
+    filepath = '../owl/3.owl'
     #步骤：
     #   Step1:读取owl文件
     #   Step2:获取本体中所有的类
@@ -126,6 +145,7 @@ if __name__ == '__main__':
     #   Step4:单独本体信息的查询（层级关系）
     #   Step5:从数据库中查询读取本体对象备注信息
     #   Step6:数据库中插入对象的备注信息
+    #   Step7:本体类的模糊查询
 
     ## Step1
     onto = AnalysisOwlUtils.readOwl(filepath)
@@ -145,6 +165,9 @@ if __name__ == '__main__':
     #Step6 数据库中插入对象的备注信息
     result = AnalysisOwlUtils.insertClassComment('ontolo_classes','治疗方案六','放松心情','1')
 
+    #Step7 本体类的模糊查询
+    fuzzyResult = AnalysisOwlUtils.ontoFuzzyMatch('ontolo_classes','OCname','一')
+
     #打印
     print(onto)
     print(classList)
@@ -152,6 +175,7 @@ if __name__ == '__main__':
     print(dir)
     print(comment)
     print(result)
+    print(fuzzyResult)
 
 
 

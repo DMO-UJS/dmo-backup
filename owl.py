@@ -8,43 +8,21 @@ from app.forms.OntoRelAddform import OntoRelAddForm
 from app.forms.OntoRelDelform import OntoRelDelForm
 
 from app.models.OntologyLibray import Ontolo_sets, Ontolo_relats, db
-from app.utils.AnalysisOwlUtils import AnalysisOwlUtils
 
 from app.utils.OntoFileUtils import OntoFileUtils
 
 app=create_app()
 
-
-@app.route('/test',methods=['GET','POST'])
-def test():
-    if request.method == 'POST':
-        obj=eval(request.data.decode(encoding = "utf-8"))  #eval()将str变为dict
-        # print(obj['text'])
-        comment = AnalysisOwlUtils.getClassComent('ontolo_classes', 'OCname', obj['text'])
-        if comment:
-            response = make_response(jsonify(comment))
-            response.headers['Access-Control-Allow-Origin'] = '*'
-            response.headers['Access-Control-Allow-Methods'] = 'OPTIONS,HEAD,GET,POST'
-            response.headers['Access-Control-Allow-Headers'] = 'x-requested-with'
-            return response
-        else:
-            return jsonify('没有找到相关回答')
-
-
 @app.route('/')
 def hello_world():
     return 'Hello World !'
 
-
+#主页
 @app.route('/dmo')
 def home():
-
-
     Ontolo_set=Ontolo_sets.query.all()
     Ontolo_rel=Ontolo_relats.query.all()
-
     return render_template('home-index.html', Ontolo_set=Ontolo_set, Ontolo_rel=Ontolo_rel)
-
 
 
 #本体库添加

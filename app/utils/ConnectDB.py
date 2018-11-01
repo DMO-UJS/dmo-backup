@@ -8,7 +8,12 @@ db='owl'
 port=3306
 charset='utf8'
 
+
+
+
 class ConnectDB:
+    def __init__(self):
+        pass
     #建立连接
     def getConnect(self):
         # 连接数据库
@@ -37,3 +42,14 @@ class ConnectDB:
         finally:
             cursor.close()  # 关闭游标
         return comment
+
+    # #返回搜索语句
+    # def searchDBSql(self,DBName,colName,keyWord):
+    #     sql = "select * from %s where %s = '%s'" %(DBName,colName,keyWord)
+    #     return sql
+    #
+    # #返回插入语句
+    # def insertDBSql(self,DBName,V1,V2,V3,V4):
+    #     sql = "insert into %s (OCname, OCcommend,OCtime,F_OLid) vlaues ('%s', '%s', '%s', '%s')" % (DBName,V1, V2, V3, V4)
+    #     return sql
+
