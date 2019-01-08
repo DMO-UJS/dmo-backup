@@ -1,49 +1,51 @@
 from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, Request, jsonify, make_response, json
+from werkzeug.exceptions import HTTPException
 
 from app import create_app
 from app.forms.OntoAddform import OntoAddForm
 from app.forms.OntoDelform import OntoDelForm
 from app.forms.OntoRelAddform import OntoRelAddForm
 from app.forms.OntoRelDelform import OntoRelDelForm
+from app.libs.error import APIException
+from app.libs.error_code import ServerError
 
 from app.models.OntologyLibray import Ontolo_sets, Ontolo_relats, db
-from app.utils.AnalysisOwlUtils import AnalysisOwlUtils
 
 from app.utils.OntoFileUtils import OntoFileUtils
 
 app=create_app()
 
-
-@app.route('/test',methods=['GET','POST'])
-def test():
-    if request.method == 'POST':
-        obj=eval(request.data.decode(encoding = "utf-8"))  #eval()将str变为dict
-        # print(obj['text'])
-        comment = AnalysisOwlUtils.getClassComent('ontolo_classes', 'OCname', obj['text'])
-        if comment:
-            response = make_response(jsonify(comment))
-            response.headers['Access-Control-Allow-Origin'] = '*'
-            response.headers['Access-Control-Allow-Methods'] = 'OPTIONS,HEAD,GET,POST'
-            response.headers['Access-Control-Allow-Headers'] = 'x-requested-with'
-            return response
+@app.errorhandler(Exception)
+def framework_error(e):
+    if isinstance(e, APIException):
+        return e
+    if isinstance(e, HTTPException):
+        code = e.code
+        msg = e.description
+        error_code = 1007
+        return APIException(msg, code, error_code)
+    else:
+        # 调试模式
+        # log
+        if not app.config['DEBUG']:
+            return ServerError()
         else:
-            return jsonify('没有找到相关回答')
+            raise e
+
+
 
 
 @app.route('/')
 def hello_world():
     return 'Hello World !'
 
+#主页
 @app.route('/dmo')
 def home():
-
-
     Ontolo_set=Ontolo_sets.query.all()
     Ontolo_rel=Ontolo_relats.query.all()
-
     return render_template('home-index.html', Ontolo_set=Ontolo_set, Ontolo_rel=Ontolo_rel)
-
 
 
 #本体库添加
@@ -162,5 +164,6 @@ def ontodisplay():
     return render_template('index.html',fp=filepath)
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=True,threaded=True)
+
 

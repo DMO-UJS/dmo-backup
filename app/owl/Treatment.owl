@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/Treatment.owl"
+         xmlns="http://test.org/Treatment.owl#">
+
+<owl:Ontology rdf:about="http://test.org/Treatment.owl"/>
+
+<owl:Class rdf:about="#检查">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FPG">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#OGTT">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#妊娠期检测">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#子宫张力">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#宫高曲线">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#眼科检查">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#血糖检查">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#口服降糖药物">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#地塞米松">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#拉贝格尔">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#激光治疗">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#禁忌药">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#胰岛素">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#疾病">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#先兆早产">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#心脏病">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#空腹尿毒">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#糖尿病">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#肥胖">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#疾病诊断分类">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#妊娠期">
+  <rdfs:subClassOf rdf:resource="#疾病诊断分类"/>
+</owl:Class>
+
+<owl:Class rdf:about="#孕期">
+  <rdfs:subClassOf rdf:resource="#疾病诊断分类"/>
+</owl:Class>
+
+<owl:Class rdf:about="#症状">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#乏力">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+</owl:Class>
+
+<owl:Class rdf:about="#呕吐">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+</owl:Class>
+
+<owl:Class rdf:about="#头痛">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+</owl:Class>
+
+<owl:Class rdf:about="#恶心">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+  <rdfs:subClassOf rdf:resource="#美国糖尿病协会"/>
+</owl:Class>
+
+<owl:Class rdf:about="#组织">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#中华医学会">
+  <rdfs:subClassOf rdf:resource="#组织"/>
+</owl:Class>
+
+<owl:Class rdf:about="#妇产科学会">
+  <rdfs:subClassOf rdf:resource="#中华医学会"/>
+</owl:Class>
+
+<owl:Class rdf:about="#美国国立卫生研究所">
+  <rdfs:subClassOf rdf:resource="#组织"/>
+</owl:Class>
+
+<owl:Class rdf:about="#美国糖尿病协会">
+  <rdfs:subClassOf rdf:resource="#组织"/>
+</owl:Class>
+
+<owl:Class rdf:about="#美国糖尿病协会2">
+  <rdfs:subClassOf rdf:resource="#美国糖尿病协会"/>
+</owl:Class>
+
+<owl:Class rdf:about="#评价">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗方案">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗方案一">
+  <rdfs:subClassOf rdf:resource="#治疗方案"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗方案二">
+  <rdfs:subClassOf rdf:resource="#治疗方案"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗方案三">
+  <rdfs:subClassOf rdf:resource="#治疗方案"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗方案四">
+  <rdfs:subClassOf rdf:resource="#治疗方案"/>
+</owl:Class>
+
+<owl:ObjectProperty rdf:about="#isConfirmOf">
+  <rdfs:domain rdf:resource="#检查"/>
+  <rdfs:range rdf:resource="#疾病"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isDiscoverOf">
+  <rdfs:domain rdf:resource="#检查"/>
+  <rdfs:range rdf:resource="#症状"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isDealOf">
+  <rdfs:domain rdf:resource="#治疗"/>
+  <rdfs:range rdf:resource="#疾病"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isResultOf">
+  <rdfs:domain rdf:resource="#治疗"/>
+  <rdfs:range rdf:resource="#症状"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isCauseOf">
+  <rdfs:domain rdf:resource="#疾病"/>
+  <rdfs:range rdf:resource="#症状"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isProcessOf">
+  <rdfs:domain rdf:resource="#疾病"/>
+  <rdfs:range rdf:resource="#疾病诊断分类"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isDecisionOf">
+  <rdfs:domain rdf:resource="#组织"/>
+  <rdfs:range rdf:resource="#疾病诊断分类"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isMemberof">
+  <rdfs:domain rdf:resource="#检查"/>
+  <rdfs:domain rdf:resource="#治疗"/>
+  <rdfs:domain rdf:resource="#疾病"/>
+  <rdfs:domain rdf:resource="#疾病诊断分类"/>
+  <rdfs:domain rdf:resource="#症状"/>
+  <rdfs:domain rdf:resource="#组织"/>
+  <rdfs:domain rdf:resource="#治疗方案"/>
+  <rdfs:range rdf:resource="#子宫张力"/>
+  <rdfs:range rdf:resource="#FPG"/>
+  <rdfs:range rdf:resource="#眼科检查"/>
+  <rdfs:range rdf:resource="#血糖检查"/>
+  <rdfs:range rdf:resource="#妊娠期检测"/>
+  <rdfs:range rdf:resource="#宫高曲线"/>
+  <rdfs:range rdf:resource="#OGTT"/>
+  <rdfs:range rdf:resource="#口服降糖药物"/>
+  <rdfs:range rdf:resource="#胰岛素"/>
+  <rdfs:range rdf:resource="#禁忌药"/>
+  <rdfs:range rdf:resource="#拉贝格尔"/>
+  <rdfs:range rdf:resource="#地塞米松"/>
+  <rdfs:range rdf:resource="#激光治疗"/>
+  <rdfs:range rdf:resource="#肥胖"/>
+  <rdfs:range rdf:resource="#糖尿病"/>
+  <rdfs:range rdf:resource="#空腹尿毒"/>
+  <rdfs:range rdf:resource="#心脏病"/>
+  <rdfs:range rdf:resource="#先兆早产"/>
+  <rdfs:range rdf:resource="#妊娠期"/>
+  <rdfs:range rdf:resource="#孕期"/>
+  <rdfs:range rdf:resource="#乏力"/>
+  <rdfs:range rdf:resource="#呕吐"/>
+  <rdfs:range rdf:resource="#头痛"/>
+  <rdfs:range rdf:resource="#恶心"/>
+  <rdfs:range rdf:resource="#中华医学会"/>
+  <rdfs:range rdf:resource="#美国国立卫生研究所"/>
+  <rdfs:range rdf:resource="#美国糖尿病协会"/>
+  <rdfs:range rdf:resource="#治疗方案二"/>
+  <rdfs:range rdf:resource="#治疗方案三"/>
+  <rdfs:range rdf:resource="#治疗方案四"/>
+  <rdfs:range rdf:resource="#治疗方案一"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isCallof">
+  <rdfs:domain rdf:resource="#症状"/>
+  <rdfs:range rdf:resource="#治疗"/>
+</owl:ObjectProperty>
+
+
+</rdf:RDF>
