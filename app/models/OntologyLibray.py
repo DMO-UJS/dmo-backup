@@ -12,7 +12,9 @@ db=SQLAlchemy()
 class Ontolo_sets(db.Model):
     OLid=Column(Integer, primary_key=True, autoincrement=True)
     OLname =Column(String(50), nullable=False)
+    Owner = Column(String(50), nullable=False)
     LRtime =Column(DateTime(), default=datetime.now)
+    Des = Column(String(200), nullable=False)
     state =Column(Boolean, default=False)
 
 
@@ -40,7 +42,6 @@ class Ontolo_relats(db.Model):
 class Ontolo_classes(db.Model):
     OCid = Column(Integer,primary_key=True,autoincrement=True)
     OCname = Column(String(50),nullable=False)
-    OCcommend = Column(String(255))
     OCtime = Column(DateTime(), default=datetime.now)
     ontolo_sets = relationship('Ontolo_sets')
     F_OLid = Column(Integer, ForeignKey('ontolo_sets.OLid'))
@@ -49,3 +50,18 @@ class Ontolo_classes(db.Model):
         for key,value in attrs_dict.items():
             if  hasattr(self,key) and  key !='id':
                 setattr(self,key,value)
+
+
+class Ontolo_annotation(db.Model):
+    OAid = Column(Integer,primary_key=True,autoincrement=True)
+    OAproperty = Column(String(50),nullable=False)
+    OAvalue = Column(String(255))
+    OCtime = Column(DateTime(), default=datetime.now)
+    ontolo_sets = relationship('Ontolo_classes')
+    F_OLid = Column(Integer, ForeignKey('ontolo_classes.OCid'))
+
+    def set_attrs(self,attrs_dict):
+        for key,value in attrs_dict.items():
+            if  hasattr(self,key) and  key !='id':
+                setattr(self,key,value)
+

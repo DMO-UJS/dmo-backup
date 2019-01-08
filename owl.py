@@ -1,11 +1,14 @@
 from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, Request, jsonify, make_response, json
+from werkzeug.exceptions import HTTPException
 
 from app import create_app
 from app.forms.OntoAddform import OntoAddForm
 from app.forms.OntoDelform import OntoDelForm
 from app.forms.OntoRelAddform import OntoRelAddForm
 from app.forms.OntoRelDelform import OntoRelDelForm
+from app.libs.error import APIException
+from app.libs.error_code import ServerError
 
 from app.models.OntologyLibray import Ontolo_sets, Ontolo_relats, db
 
@@ -13,6 +16,29 @@ from app.utils.OntoFileUtils import OntoFileUtils
 
 app=create_app()
 
+<<<<<<< HEAD
+=======
+@app.errorhandler(Exception)
+def framework_error(e):
+    if isinstance(e, APIException):
+        return e
+    if isinstance(e, HTTPException):
+        code = e.code
+        msg = e.description
+        error_code = 1007
+        return APIException(msg, code, error_code)
+    else:
+        # 调试模式
+        # log
+        if not app.config['DEBUG']:
+            return ServerError()
+        else:
+            raise e
+
+
+
+
+>>>>>>> 徐煜涵
 @app.route('/')
 def hello_world():
     return 'Hello World !'
@@ -141,5 +167,6 @@ def ontodisplay():
     return render_template('index.html',fp=filepath)
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=True,threaded=True)
+
 

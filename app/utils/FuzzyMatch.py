@@ -7,7 +7,11 @@ class FuzzyMatch:
         pattern = '.*'.join(user_input)  # Converts 'djm' to 'd.*j.*m'
         regex = re.compile(pattern)  # Compiles a regex.
         for item in collection:
+<<<<<<< HEAD
             match = regex.search(item)  # Checks if the current item matches the regex.
+=======
+            match = regex.search(str(item))  # Checks if the current item matches the regex.
+>>>>>>> 徐煜涵
             if match:
                 suggestions.append(item)
         return suggestions
