@@ -9,19 +9,8 @@ import pymysql
 # charset='utf8'
 
 
-
-
-
 class ConnectDB:
     def __init__(self):
-<<<<<<< HEAD
-        pass
-    #建立连接
-    def getConnect(self):
-        # 连接数据库
-        conn = pymysql.connect(host=host, user=user, passwd=passwd, db=db, port=port,charset=charset)
-        print('connect mysql success!')
-=======
         self.host = '120.79.89.116'
         self.user = 'root'
         self.passwd = 'Xuh781787'
@@ -34,34 +23,17 @@ class ConnectDB:
         # 连接数据库
         conn = pymysql.connect(host=self.host, user=self.user, passwd=self.passwd, db=self.db, port=self.port,charset=self.charset)
         print('connect mysql success')
->>>>>>> 徐煜涵
         return conn
 
     #断开连接
     def closedConnect(self,conn):
         conn.close()  # 释放数据库资源
-<<<<<<< HEAD
-        print('disconnect mysql!')
-=======
         print('disconnect mysql')
->>>>>>> 徐煜涵
 
     #数据库操作
     def queryDB(self,conn,sql):
         global comment
         cursor = conn.cursor()
-<<<<<<< HEAD
-        query = sql
-        print(query)
-        try:
-            cursor.execute(query)
-            conn.commit()
-            comment = list(cursor.fetchall())
-            print('operation success!')
-        except:
-            conn.rollback()
-            print('operation error!')
-=======
         print("执行SQL语句：",sql)
         try:
             conn.ping()
@@ -74,22 +46,10 @@ class ConnectDB:
             conn.ping(True)
             conn.rollback()
             print('operation error')
->>>>>>> 徐煜涵
         finally:
             cursor.close()  # 关闭游标
         return comment
 
-<<<<<<< HEAD
-    # #返回搜索语句
-    # def searchDBSql(self,DBName,colName,keyWord):
-    #     sql = "select * from %s where %s = '%s'" %(DBName,colName,keyWord)
-    #     return sql
-    #
-    # #返回插入语句
-    # def insertDBSql(self,DBName,V1,V2,V3,V4):
-    #     sql = "insert into %s (OCname, OCcommend,OCtime,F_OLid) vlaues ('%s', '%s', '%s', '%s')" % (DBName,V1, V2, V3, V4)
-    #     return sql
-=======
     #返回搜索语句
         #通过关键字限制进行查询（返回所有）
         #select * from DB where colName = 'keyWord'
@@ -147,5 +107,4 @@ if __name__ == "__main__":
         print(list)
     print(lists[-1])
 
->>>>>>> 徐煜涵
 

@@ -14,5 +14,90 @@
 
 <owl:ObjectProperty rdf:about="#超关系"/>
 
+<owl:Class rdf:about="#疾病">
+  <rdfs:subClassOf rdf:resource="#超类"/>
+</owl:Class>
+
+<owl:Class rdf:about="#先兆早产">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#糖尿病">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#妊娠综合症">
+  <rdfs:subClassOf rdf:resource="#疾病"/>
+</owl:Class>
+
+<owl:Class rdf:about="#症状">
+  <rdfs:subClassOf rdf:resource="#超类"/>
+</owl:Class>
+
+<owl:Class rdf:about="#发热">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+</owl:Class>
+
+<owl:Class rdf:about="#头晕">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+</owl:Class>
+
+<owl:Class rdf:about="#盗汗">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+</owl:Class>
+
+<owl:Class rdf:about="#恶心">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+</owl:Class>
+
+<owl:Class rdf:about="#治疗">
+  <rdfs:subClassOf rdf:resource="#症状"/>
+  <rdfs:subClassOf rdf:resource="#超类"/>
+</owl:Class>
+
+<owl:Class rdf:about="#激光治疗">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#检查">
+  <rdfs:subClassOf rdf:resource="#超类"/>
+</owl:Class>
+
+<owl:Class rdf:about="#B超">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FPG">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#OGTT">
+  <rdfs:subClassOf rdf:resource="#检查"/>
+</owl:Class>
+
+<owl:Class rdf:about="#地塞米松">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#禁忌药">
+  <rdfs:subClassOf rdf:resource="#治疗"/>
+</owl:Class>
+
+<owl:Class rdf:about="#鹤顶红">
+  <rdfs:subClassOf rdf:resource="#禁忌药"/>
+</owl:Class>
+
+<owl:Class rdf:about="#组织">
+  <rdfs:subClassOf rdf:resource="#超类"/>
+</owl:Class>
+
+<owl:Class rdf:about="#中华医学会">
+  <rdfs:subClassOf rdf:resource="#组织"/>
+</owl:Class>
+
+<owl:Class rdf:about="#孕产健康协会">
+  <rdfs:subClassOf rdf:resource="#中华医学会"/>
+</owl:Class>
+
 
 </rdf:RDF>

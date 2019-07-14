@@ -5,6 +5,7 @@ from owlready2 import get_ontology
 from app.ontology.OtherUtils import OtherUtils
 from app.owl.OwlPath import getOwlPath
 from app.utils.AnalysisOwlUtils import AnalysisOwlUtils
+from app.utils.FuzzyMatch import FuzzyMatch
 from app.utils.OntoOperUtils import OntoOperUtils
 import os
 
@@ -32,7 +33,7 @@ def ontoclassdel():
     if request.method=='POST':
         filename,classname=request.json['libraryName'],request.json['className']
         OntoOperUtils.delOwlClass(filename, classname)
-        # select_obj = request.json['libraryName']
+        # select_obj = request.json['libraryName']s
         classLayerList_del = OntoOperUtils.searchOwlClassLayer(filename)
         contentlist = OntoOperUtils.delLayerClass(filename, classname)
         # print(classLayerList_del)
@@ -45,9 +46,21 @@ def ontoclassdel():
 @ontologclass.route('/classsearch',methods=['POST'])
 def ontoclasssearch():
     if request.method=='POST':
-        DBName,colName,className='ontolo_classes','OCname',request.json['searchname']
-        fuzzyResult = AnalysisOwlUtils.ontoFuzzyMatch(DBName, colName, className)
-        return jsonify(fuzzyResult)
+        # DBName,colName,className='ontolo_classes','OCname',request.json['searchname']
+        # fuzzyResult = AnalysisOwlUtils.ontoFuzzyMatch(DBName, colName, className)
+        # return jsonify(fuzzyResult)
+        searchName=request.json['searchText']
+        owllists=OntoOperUtils.searchOwlClass(request.json['libraryName'])
+        finlist=[]
+        for owllist in owllists:
+            owllist=str(owllist)
+            flag=owllist.index('.')
+            owllist=owllist[flag+1:]
+            owldict={'className':''}
+            owldict['className']=owllist
+            finlist.append(owldict)
+        resultlist=FuzzyMatch.fuzzyFinder(searchName, finlist)
+        return jsonify(resultlist)
 
 
 #6.class选择,返回class相关的信息，annotations,parents,relatiosnhips
@@ -106,5 +119,4 @@ def reladd():
 @ontologclass.route('/reldel',methods=['POST'])
 def reldel():
     if request.method == 'POST':
-
         return 'ok'

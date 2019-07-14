@@ -113,8 +113,18 @@ class OntoOperUtils:
         owlpath = getOwlPath()
         filepath = owlpath + "/%s.owl" % (fileName)
         onto = get_ontology(filepath).load()
-        owlClassList = list(onto.classes())
-        return owlClassList
+        owlClass = list(onto.classes())
+        owlClassList = []
+        for owl in owlClass:
+            owlClassList.append(owl.name)
+        return owlClassList[1:]
+
+    # onto = get_ontology(filepath).load()
+    # owlClass = list(onto.classes())
+    # owlClassList = []
+    # for owl in owlClass:
+    #     owlClassList.append(owl.name)
+    # return owlClassList[1:]
 
     # 4.2 查询获取本体库对象的层级关系
     ## 例：[{'name':'检查'，'children':['宫高曲线','子宫张力','妊娠期检测','血糖检查']}]

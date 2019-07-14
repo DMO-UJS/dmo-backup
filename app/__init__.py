@@ -4,15 +4,11 @@ from flask import Flask
 from flask_cors import CORS
 
 from app.models.OntologyLibray import db
+from app.ontology.fileUpload import file
 from app.user.client import client
 from app.user.token import token
 from app.user.user import user
 
-def register_blueprints(app):
-    from app.api.match import match
-    from app.api.askfor import askfor
-    app.register_blueprint(match)
-    app.register_blueprint(askfor)
 
 
 
@@ -34,6 +30,7 @@ def register_blueprints(app):
     app.register_blueprint(user)
     app.register_blueprint(client)
     app.register_blueprint(token)
+    app.register_blueprint(file)
 
 def create_app():
     app=Flask(__name__)
@@ -44,7 +41,6 @@ def create_app():
     from app.models.user import User
     register_blueprints(app)
 
-    register_blueprints(app)
 
     db.init_app(app)
     db.create_all(app=app)

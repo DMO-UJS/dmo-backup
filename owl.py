@@ -1,5 +1,6 @@
 from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, Request, jsonify, make_response, json
+from flask_cors import CORS
 from werkzeug.exceptions import HTTPException
 
 from app import create_app
@@ -16,8 +17,6 @@ from app.utils.OntoFileUtils import OntoFileUtils
 
 app=create_app()
 
-<<<<<<< HEAD
-=======
 @app.errorhandler(Exception)
 def framework_error(e):
     if isinstance(e, APIException):
@@ -38,7 +37,6 @@ def framework_error(e):
 
 
 
->>>>>>> 徐煜涵
 @app.route('/')
 def hello_world():
     return 'Hello World !'
@@ -167,6 +165,7 @@ def ontodisplay():
     return render_template('index.html',fp=filepath)
 
 if __name__=='__main__':
-    app.run(debug=True,threaded=True)
+    CORS(app, supports_credentials=True)
+    app.run(debug=True,threaded=True,)
 
 

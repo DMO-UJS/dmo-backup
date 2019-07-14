@@ -93,29 +93,6 @@ class OntoFileUtils:
     #删除OWL文件中的本体
     #本身的删除、子对象的删除、关系的删除
     def delOntoClass(self,className):
-<<<<<<< HEAD
-        index = 0
-        indexlist = 1
-        f = open(self.filename,'r',encoding='utf-8')
-        lines = f.readlines()
-        f.close()
-        onto = AnalysisOwlUtils.readOwl(self.filename)
-        # dictLists = AnalysisOwlUtils.getAllClassesInfo(onto)
-        dir = AnalysisOwlUtils.getClassInfo(onto,className)
-        print(dir)
-        if dir !=  None:
-            oldStrBeg = "<owl:Class rdf:about='#"+className+"'>"
-            for line in lines:
-                if line.strip() == oldStrBeg:
-                    print(index)
-                    indexlist = index
-                else:
-                    index += 1
-            lines[indexlist:indexlist+3] = "<!--**-->\n<!--**-->\n<!--**-->\n"
-            f = open(self.filename, 'w', encoding='utf-8')
-            for line in lines:
-                f.write(line)
-=======
         contentLists = self.splitOntoFile()
         for i in range(len(contentLists)):
             if className in contentLists[i]:
@@ -129,7 +106,6 @@ class OntoFileUtils:
         print(string)
         f = open(self.filename, 'w', encoding='utf-8')
         f.write(string)
->>>>>>> 徐煜涵
         f.close()
 
 

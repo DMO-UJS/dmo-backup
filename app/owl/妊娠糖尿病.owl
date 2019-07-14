@@ -1,0 +1,2014 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#"
+     xml:base="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCauseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCauseOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isConfirmOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isConfirmOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCooperateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCooperateOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDealOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDealOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDecisionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDecisionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDisDoingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDisDoingOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDiscoverOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDiscoverOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDoingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDoingOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isEvaluateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isEvaluateOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isHappenOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isHappenOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isKnowOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isKnowOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isProgressOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isProgressOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isResultOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isResultOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isTimeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isTimeOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#1型糖尿病合并妊娠 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#1型糖尿病合并妊娠">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#2型糖尿病（T2DM） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#2型糖尿病（T2DM）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#75g口服葡糖糖耐量试验 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#75g口服葡糖糖耐量试验">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#ACEI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#ACEI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#B超 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#B超">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#FPG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#CCMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#CCMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#DKA症状监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#DKA症状监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#FPG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#FPG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#GDM史 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#GDM史">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#HbA1c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#HbA1c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#OGTT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#OGTT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#中华医学会 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#中华医学会">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#中效胰岛素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#中效胰岛素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#乏力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#乏力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isHappenOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#产前筛查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#产前筛查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿发育监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿发育监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#产科学组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#产科学组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妇产科学分会"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妇产科学分会"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#体位性低血压 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#体位性低血压">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#促胎儿肺成熟 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#促胎儿肺成熟">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#先兆早产或流产 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#先兆早产或流产">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#先天性心脏病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#先天性心脏病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#前置胎盘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#前置胎盘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#口服降糖药物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#口服降糖药物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCooperateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎动监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#呕吐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#呕吐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isHappenOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#地塞米松 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#地塞米松">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCooperateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#羊膜腔穿刺术"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#增值性DR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#增值性DR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病视网膜病变"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病视网膜病变"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#外阴瘙痒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#外阴瘙痒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#多囊卵巢综合征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#多囊卵巢综合征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#多胎妊娠 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#多胎妊娠">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#头晕眼花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#头晕眼花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#头痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#头痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isHappenOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妇产科学分会 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妇产科学分会">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#中华医学会"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#中华医学会"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠中期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠中期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDisDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#ACEI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDisDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血管紧张素Ⅱ受体拮抗剂"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠早期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠早期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#拉贝格尔"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#钙离子通道阻滞剂"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠晚期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠晚期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDisDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#ACEI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDisDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血管紧张素Ⅱ受体拮抗剂"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期高血压疾病监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期高血压疾病监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病（GDM） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病（GDM）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠高血压疾病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠高血压疾病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#子宫张力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#子宫张力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕前糖尿病（PGDM） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕前糖尿病（PGDM）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠糖尿病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#宫颈机能不全 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#宫颈机能不全">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#宫高曲线 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#宫高曲线">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿常规检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿常规检查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#感染监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#感染监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿急 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿急">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿潴留 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿潴留">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿糖监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿糖监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿蛋白 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿蛋白">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isKnowOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿酮体监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿酮体监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿频 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#尿频">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#巨大儿分娩史 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#巨大儿分娩史">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#心脏病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#心脏病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#心血管疾病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#心血管疾病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#恶心 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#恶心">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isHappenOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#感染监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#感染监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#憋气 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#憋气">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#拉贝格尔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#拉贝格尔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDealOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#无应激实验 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#无应激实验">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿宫内发育状况评价"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#早期糖尿病酮症酸中毒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#早期糖尿病酮症酸中毒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#昏迷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#昏迷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isHappenOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#末梢空腹血糖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#末梢空腹血糖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isConfirmOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDiscoverOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isResultOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDealOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#激光治疗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#激光治疗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDealOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#增值性DR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#甲状腺功能监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#甲状腺功能监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCauseOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isProgressOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#白带增多 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#白带增多">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#眼底检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#眼底检查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isTimeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠中期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#眼科检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#眼科检查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#短效胰岛素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#短效胰岛素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>其特点是起效快，剂量易于调整，可皮下、肌肉和静脉注射使用。静脉注射胰岛素后能使血糖迅速下降，半衰期5~6min，故可用于抢救DKA。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#神经病变 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#神经病变">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#空腹尿糖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#空腹尿糖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#空腹血糖受损 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#空腹血糖受损">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>impairde fasting glucose,IFG;即糖尿病前期
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病控制与并发症试验 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病控制与并发症试验">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病肾病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病肾病">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>diabetic nephropathy,DN</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病视网膜病变 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖尿病视网膜病变">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDoingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#眼科检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>diabetic retinopathy,DR</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖耐量受损 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#糖耐量受损">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>imparied glucose tolerance,IGT
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDecisionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病诊断分类"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#羊水过多及其并发症监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#羊水过多及其并发症监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#羊水量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#羊水量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#B超"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isKnowOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#B超"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#羊膜腔穿刺术 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#羊膜腔穿刺术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿生长速度监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿生长速度监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#美国国立卫生研究院 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#美国国立卫生研究院">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#美国糖尿病协会 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#美国糖尿病协会">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#组织"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#肌无力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#肌无力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#肥胖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#肥胖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#肾功能 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#肾功能">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isTimeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠早期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胃轻瘫 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胃轻瘫">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#并发症"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿发育监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿发育监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿宫内发育状况评价 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿宫内发育状况评价">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿生长受限 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿生长受限">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿生长速度监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿生长速度监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎动监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎动监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿宫内发育状况评价"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿宫内发育状况评价"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isCooperateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎动监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胸痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胸痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#腹痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#腹痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#自我血糖监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#自我血糖监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血压 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血压">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isKnowOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠期监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血管紧张素Ⅱ受体拮抗剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血管紧张素Ⅱ受体拮抗剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血管紧张素转化酶抑制剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血管紧张素转化酶抑制剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#禁忌药"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>angiotensin coverting enzyme inhibitor,ACEI</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖控制不良 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖控制不良">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖检查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#检查"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血糖监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#孕妇血糖监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血脂监测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#血脂监测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#其他并发症监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isTimeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#妊娠晚期"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#视网膜病变 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#视网膜病变">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#评价 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#评价">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isEvaluateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#超声检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#超声检查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿发育监测"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胎儿发育监测"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#超短效人胰岛素类似物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#超短效人胰岛素类似物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>起效时间10~20min，作用达峰值时间3-~90min，有效作用时间3~4h，最长持续时间3~5h</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#钙离子通道阻滞剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#钙离子通道阻滞剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isDealOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#治疗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#长效胰岛素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#长效胰岛素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#胰岛素"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#门冬胰岛素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#门冬胰岛素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#超短效人胰岛素类似物"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#超短效人胰岛素类似物"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#阴道流血或流水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#阴道流血或流水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#症状"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖危象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖危象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖症状 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖症状">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/root/ontologies/2018/6/untitled-ontology-23#高血糖"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

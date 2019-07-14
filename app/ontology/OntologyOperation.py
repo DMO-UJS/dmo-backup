@@ -1,8 +1,9 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, render_template
 from werkzeug.utils import secure_filename
 import os
 
 from app.models.OntologyLibray import Ontolo_sets, db
+from app.ontology.OtherUtils import OtherUtils
 from app.owl.OwlPath import getOwlPath
 from app.utils.AnalysisOwlUtils import AnalysisOwlUtils
 from app.utils.OntoOperUtils import OntoOperUtils
@@ -113,3 +114,13 @@ def ontofileupload():
             return '本体文件上传成功！'
         except:
             return '上传失败！'
+
+#本体可视化json路径
+@ontolog.route('/ontojson',methods=['GET','POST'])
+def ontojson():
+    # if request.method == 'POST':
+    #     name=request.json['name']
+        path=OtherUtils.owlClassToJson('妊娠糖尿病')
+        haha='static/妊娠糖尿病.json'
+        alljson='static/all.json'
+        return render_template('visualization.html',haha=haha,alljson=alljson)

@@ -1,19 +1,9 @@
-<<<<<<< HEAD
-from owlready2 import *
-=======
->>>>>>> 徐煜涵
 #本体文件解析类
 from owlready2 import *
 
 from app.owl.OwlPath import getOwlPath
 from app.utils.ConnectDB import ConnectDB
 from app.utils.FuzzyMatch import FuzzyMatch
-<<<<<<< HEAD
-
-
-class AnalysisOwlUtils:
-    """""
-=======
 from app.utils.OntoFileUtils import OntoFileUtils
 
 
@@ -21,7 +11,6 @@ class AnalysisOwlUtils:
 
     """""
     1.1
->>>>>>> 徐煜涵
     读OWL文件
     """""
     @classmethod
@@ -30,13 +19,8 @@ class AnalysisOwlUtils:
         onto = get_ontology(filepath).load()
         return onto
 
-<<<<<<< HEAD
-
-    """""
-=======
     """""
     1.2
->>>>>>> 徐煜涵
     存储OWL文件
     """""
     @classmethod
@@ -112,10 +96,7 @@ class AnalysisOwlUtils:
 
 
     """""
-<<<<<<< HEAD
-=======
     4.1
->>>>>>> 徐煜涵
     读取OWL文件内的所有本体对象
     返回:List
     例：['检查', 'FPG', 'OGTT', '妊娠期检测', '子宫张力', '宫高曲线', '眼科检查', '血糖检查']
@@ -130,10 +111,7 @@ class AnalysisOwlUtils:
 
 
     """""
-<<<<<<< HEAD
-=======
     4.2
->>>>>>> 徐煜涵
     获取所有对象及子对象信息，List返回
     输入：本体对象
     输出：列表[{'name':'*','children':[*]},{'name':'**','children':[**]}]，列表元素为字典
@@ -157,10 +135,7 @@ class AnalysisOwlUtils:
 
 
     """""
-<<<<<<< HEAD
-=======
     4.3
->>>>>>> 徐煜涵
     按照关键字进行查询
     输入 本体名 （String:'FRG'）
     输出 例：{'Name': 'FPG', 'Children': []}  （字典）
@@ -174,10 +149,7 @@ class AnalysisOwlUtils:
 
 
     """""
-<<<<<<< HEAD
-=======
     4.4
->>>>>>> 徐煜涵
     数据库中查询读取本体对象备注信息
     输入 本体名 （String:'治疗方案'）
     输出 例：[{'name': '治疗方案', 'content': ''},{'name': '治疗方案一', 'content': ''}]
@@ -188,14 +160,8 @@ class AnalysisOwlUtils:
         db = ConnectDB()
         conn = db.getConnect()
         #填写sql语句
-<<<<<<< HEAD
-        sql = "select * from %s where %s = '%s'" %(DBName,colName,className)
-        comments = db.queryDB(conn,sql)
-        db.closedConnect(conn)
-=======
         # sql = "select * from %s where %s = '%s'" %(DBName,colName,className)
         comments = db.searchByKey_All(DBName, colName, className,conn)
->>>>>>> 徐煜涵
         dictlist = []
         for comment in comments:
             dictlist.append({'name': comment[1], 'content': comment[2]})
@@ -203,10 +169,7 @@ class AnalysisOwlUtils:
         return dictlist
 
     """
-<<<<<<< HEAD
-=======
     4.5
->>>>>>> 徐煜涵
     根据关键字进行本体类模糊查询
     输入：DB，列名，关键字
     输出：列表 [可能的备选词]
@@ -215,14 +178,8 @@ class AnalysisOwlUtils:
     def ontoFuzzyMatch(cls,DBName,colName,keyWord):
         db = ConnectDB()
         conn = db.getConnect()
-<<<<<<< HEAD
-        sql = "select %s from %s " % (colName, DBName)
-        results = db.queryDB(conn,sql)
-        db.closedConnect(conn)
-=======
         # sql = "select %s from %s " % (colName, DBName)
         results = db.searchColByDB(colName, DBName,conn)
->>>>>>> 徐煜涵
         fuzzyList = []
         for result in results:
             fuzzyList.append(result[0])
@@ -230,37 +187,11 @@ class AnalysisOwlUtils:
         return  FuzzyMatch.fuzzyFinder(keyWord, fuzzyList)
 
 
-<<<<<<< HEAD
-    """""
-    数据库中插入对象的备注信息
-    输入 参数1：表名； 参数2：OCname值； 参数3：OCcommend值； 参数4：F_OLid值；
-    输出 “operation success” ； “operation error”
-    INSERT INTO 表名称 (列1，列2，....) VALUES (值1, 值2,....)
-    insert into ontolo_classes (OCname,OCcommend,OCtime,F_OLid) values ('治疗方案六','放松心情','2018-10-31 14:44:46','1');
-    """""
-    @classmethod
-    def insertClassComment(cls,DBName,V1,V2,V3):
-        #获取当前时间
-        # %Y-%m-%d %H:%M:%S  ===  年-月-日  小时-分钟-秒
-        now_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        db = ConnectDB()
-        conn = db.getConnect()
-        # 填写sql语句
-        sql = "INSERT INTO %s (OCname, OCcommend,OCtime,F_OLid) VALUES ('%s', '%s', '%s', '%s')" % (DBName,V1, V2, now_time, V3)
-        comments = db.queryDB(conn, sql)
-        db.closedConnect(conn)
-        return comments
-=======
->>>>>>> 徐煜涵
 
 
 #测试
 if __name__ == '__main__':
-<<<<<<< HEAD
-    filepath = '../owl/3.owl'
-=======
     filepath = '../owl/illness.owl'
->>>>>>> 徐煜涵
     #步骤：
     #   Step1:读取owl文件
     #   Step2:获取本体中所有的类
@@ -269,13 +200,7 @@ if __name__ == '__main__':
     #   Step5:从数据库中查询读取本体对象备注信息
     #   Step6:数据库中插入对象的备注信息
     #   Step7:本体类的模糊查询
-<<<<<<< HEAD
-
-    ## Step1
-    onto = AnalysisOwlUtils.readOwl(filepath)
-=======
     #   Step8:创建本体库
->>>>>>> 徐煜涵
 
     # Step1
     #onto = AnalysisOwlUtils.readOwl(filepath)
@@ -316,22 +241,6 @@ if __name__ == '__main__':
     AnalysisOwlUtils.creatOwlRelat('妊娠糖尿病', RelationName, Domain, RangeList)
 
 
-<<<<<<< HEAD
-    #Step6 数据库中插入对象的备注信息
-    result = AnalysisOwlUtils.insertClassComment('ontolo_classes','治疗方案六','放松心情','1')
-
-    #Step7 本体类的模糊查询
-    fuzzyResult = AnalysisOwlUtils.ontoFuzzyMatch('ontolo_classes','OCname','一')
-
-    #打印
-    print(onto)
-    print(classList)
-    print(dictLists)
-    print(dir)
-    print(comment)
-    print(result)
-    print(fuzzyResult)
-=======
 #ConnectDB测试
     #DBDeatils = AnalysisOwlUtils.test('ontolo_classes')
 
@@ -344,7 +253,6 @@ if __name__ == '__main__':
     # print('result:',result)
     # print('fuzzyResult:',fuzzyResult)
     # print(DBDeatils)
->>>>>>> 徐煜涵
 
 
 
